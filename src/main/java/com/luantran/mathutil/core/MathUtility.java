@@ -46,6 +46,17 @@ public class MathUtility {
         for (int i = 1; i <= n; i++) 
             product *= i; //thuật toán nhân dồn, con heo đất
                           //ốc bu nhồi thịt
-        return product;
+        return n * getFactorial(n - 1);
+        // recursion - đệ quy gọi lại chính mình với một quy mô khác
     }
 }
+// 5! = 1.2.3.4.5
+//    = 5.4!
+// 4! = 1.2.3.4
+//    = 4.3!
+// 3! = 1.2!
+// 2! = 2.1!
+// 1! = 1
+// n! = n x (n-1)! công thức đệ quy - recursion
+// búp bê người nga
+
