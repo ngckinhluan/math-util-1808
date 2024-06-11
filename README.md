@@ -8,6 +8,7 @@
 * The test script to demonstrate the TDD, DDT techniques
 * The CI (Continuous Integration) script to apply CI process
 * The demonstration of using recursion 
+* Demonstrate the source code confliction on pushing
 * ...
 
 ### Screenshots
